@@ -1,9 +1,9 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
+    "name": "ws",
+    "displayName": "魏神鼓励师",
     "description": "写代码不再孤单，有杨超越与你同在",
     "version": "0.1.2",
-    "publisher": "formulahendry",
+    "publisher": "kraftoreo",
     "icon": "logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
@@ -12,35 +12,35 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "魏神",
         "提醒",
         "鼓励"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
+        "url": "https://github.com/KraftOreo/vscode-ycy/issues",
+        "email": "976539567@qq.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/KraftOreo/vscode-ycy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/KraftOreo/vscode-ycy/vscode-ycy.git"
     },
     "activationEvents": [
-        "onCommand:ycy.showReminderView",
+        "onCommand:ws.showReminderView",
         "*"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "ycy.showReminderView",
+                "command": "ws.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "ws"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "魏神",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
